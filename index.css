@@ -1,0 +1,30 @@
+#container {
+  width: 500px;
+  height: 400px;
+  margin: 0 auto;
+  border: 1px solid green;
+}
+.element {
+  margin: 5px;
+}
+label {
+  float: left;
+  width: 140px;
+}
+input {
+  width: 200px;
+  border-radius: 5px;
+  border: 1px solid grey;
+}
+#submit {
+  width: 110px;
+  position: relative;
+  left: 140px;
+}
+.header {
+  background-color: grey;
+  border: 1px solid gold;
+}
+h2 {
+  margin-left: 160px;
+}

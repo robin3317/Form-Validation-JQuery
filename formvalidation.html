@@ -6,38 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Form Validation</title>
   <script src="jquery.min.js"></script>
-  <style>
-    #container {
-      width: 500px;
-      height: 400px;
-      margin: 0 auto;
-      border: 1px solid green;
-    }
-    .element {
-      margin: 5px;
-    }
-    label {
-      float: left;
-      width: 140px;
-    }
-    input {
-      width: 200px;
-      border-radius: 5px;
-      border: 1px solid grey;
-    }
-    #submit {
-      width: 110px;
-      position: relative;
-      left: 140px;
-    }
-    .header {
-      background-color: grey;
-      border: 1px solid gold;
-    }
-    h2 {
-      margin-left: 160px;
-    }
-  </style>
+  <script src="validation.js"></script>
+  <link rel="stylesheet" href="index.css">
 </head>
 <body>
   <div id="container">
@@ -50,7 +20,7 @@
     </div>
     <div class="element">
         <label for="telephone">Telephone</label>
-        <input type="text" id="telephone" placeholder="eg. 01777833765">
+        <input type="text" id="telephone" placeholder="eg. 01237833765">
     </div>
     <div class="element">
         <label for="password">Password</label>
@@ -64,9 +34,5 @@
       <input type="submit" id="submit" value="Sign Up">
     </div>
   </div>
-
-  <script>
-    
-  </script>
 </body>
 </html>
