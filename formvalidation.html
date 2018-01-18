@@ -15,23 +15,35 @@
       <h2>Sign Up Form</h2>
     </div>
     <div class="element">
+      <label for="username">Username</label>
+      <input type="text" id="username" placeholder="eg. robin4js">
+      <span id="errorUsername"></span>
+    </div>
+    <div class="element">
       <label for="email">Email</label>
       <input type="text" id="email" placeholder="eg. example@abc.com">
+      <span id="errorEmail"></span>
     </div>
     <div class="element">
         <label for="telephone">Telephone</label>
         <input type="text" id="telephone" placeholder="eg. 01237833765">
+        <span id="errorTelephone"></span>
     </div>
     <div class="element">
         <label for="password">Password</label>
         <input type="password" id="password">
+        <span id="errorPassword"></span>
     </div>
     <div class="element">
         <label for="confirmPassword">Confirm Password</label>
         <input type="password" id="confirmPassword">
+        <span id="errorConfirmPassword"></span>
     </div>
     <div class="element">
       <input type="submit" id="submit" value="Sign Up">
+    </div>
+    <div id="error">
+       
     </div>
   </div>
 </body>
