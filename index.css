@@ -20,11 +20,20 @@ input {
   width: 110px;
   position: relative;
   left: 140px;
+  border-radius: 5px;
+  border: 1px solid grey;
 }
 .header {
   background-color: grey;
   border: 1px solid gold;
+  margin: 5px;
+}
+.header h1 {
+  margin: 15px 15px 15px 100px;
 }
 h2 {
   margin-left: 160px;
+}
+.error {
+  color: red;
 }
