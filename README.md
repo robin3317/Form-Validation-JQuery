@@ -4,6 +4,11 @@ See this project as a video - [YouTube](https://youtu.be/ktIQ9Q3-7i0)
 The purpose of this project is not developing a wonderful **Sign Up** form, is to understand the concepts of **Form Validation**
 using [JQuery](https://jquery.org/).
 
+<img src="form0.PNG">
+<img src="form1.PNG">
+<img src="form2.PNG">
+<img src="form3.PNG">
+
 ## Built with
 - HTML5
 - CSS3
